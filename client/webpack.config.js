@@ -3,7 +3,7 @@ const path = require('path');
 
 const config = {
   entry: {
-    app: './index.js'
+    app: './assets/js/index.js'
   },
   output: {
     path: __dirname + '/dist',
@@ -33,12 +33,12 @@ const config = {
       theme_color: '#ffffff',
       start_url: '/',
       icons: [{
-        src: path.resolve('icons/icon-192x192.png'),
+        src: path.resolve('assets/images/icons/icon-192x192.png'),
         sizes: [96, 192, 384],
         destination: 'icons'
       },
       {
-        src: path.resolve('icons/icon-512x512.png'),
+        src: path.resolve('assets/images/icons/icon-512x512.png'),
         sizes: [128, 256, 512],
         destination: 'icons'
       }],
