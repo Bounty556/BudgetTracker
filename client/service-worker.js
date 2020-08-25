@@ -2,8 +2,8 @@ const FILES_TO_CACHE = [
   '/',
   '/index.html',
   '/assets/css/styles.css',
+  '/assets/js/indexedDB.js',
   '/dist/app.bundle.js',
-  '/dist/db.bundle.js'
 ];
 
 const PRECACHE = 'precache-v1';
