@@ -7,7 +7,7 @@
     "webpack": "webpack",
     "build": "npm run webpack"
   },
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "babel-core": "^6.26.3",
